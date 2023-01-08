@@ -16,9 +16,30 @@
             font-weight: 800px;
             font-size: 30px;
         }
-        a::target-text{
+        a:visited{
             color: chartreuse;
         }
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: yellowgreen;
+        }
+        li:nth-child(4n){
+            color: blue;
+        }
+        li:nth-child(2n+1){
+            background-color: cyan;
+        }
+        h3::before{
+            content: 'hello ';
+        }
+        h3::after{
+            content: ' gello';
+            font-size: small;
+            color: aqua;
+        }
+        
     </style>
 </head>
 <body>
@@ -27,7 +48,33 @@
     <input class="middle-person" type="text">
     <input type="text">
     <br>
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">google </a>
-    <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">never visited</a>
+    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">google </a> <br>
+    <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">never visited</a> <br>
+
+    <h3>middle size header1</h3>
+    <h3>middle size header2</h3>
+    <h3>middle size header3</h3>
+    <h3>middle size header4</h3>
+    <h3>middle size header5</h3>
+    <h3>middle size header6</h3>
+
+  <ul>
+    <li>alia</li>
+    <li>dalia</li>
+    <li>kalia</li>
+    <li>chalia</li>
+    <li>malia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+    <li>nalia</li>
+  </ul>
+
 </body>
 </html>
