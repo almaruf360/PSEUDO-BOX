@@ -1,0 +1,16 @@
+.swimming div img {
+    width: 500px;
+    height: 300px;
+    position: relative
+    ;
+    top: 30px;
+    left: 100px;
+    top: 50px;
+}
+#first{
+    position: relative;
+    bottom: 100px;
+}
+.swimming{
+    position: relative;
+}
